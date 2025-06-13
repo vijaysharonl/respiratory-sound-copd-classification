@@ -1,6 +1,6 @@
 # Respiratory Sound Classification
 
-This project classifies respiratory sounds into **COPD** and **Non-COPD** using Mel spectrograms and a Convolutional Neural Network (CNN) with Efficient Channel Attention (ECA).
+This project classifies respiratory sounds into **COPD** and **Non-COPD** using Mel spectrograms and a Convolutional Neural Network (CNN) enhanced with Efficient Channel Attention (ECA).
 
 ---
 
@@ -21,13 +21,22 @@ This project classifies respiratory sounds into **COPD** and **Non-COPD** using 
 
 ---
 
+## ✅ Requirements
+- Python 3.8+
+- PyTorch
+- Librosa
+- scikit-learn
+- Matplotlib
+- Seaborn
+
+---
+
 ## 🧠 Training
 
-The model is trained using:
+The model is trained using the following techniques for improved robustness and performance:
 
 - **Dynamic Sample Weighting:** Loss is adaptively scaled based on per-sample difficulty, improving generalization on imbalanced data.
 - **Gradient Clipping:** Prevents exploding gradients by capping maximum gradient norms during backpropagation.
 - **Early Stopping:** Stops training when validation loss stops improving, avoiding overfitting.
 
-```bash
-python train.py
+
