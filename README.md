@@ -3,7 +3,7 @@ Respiratory Sound Classification
 This project classifies respiratory sounds into **COPD** and **Non-COPD** using Mel spectrograms and a Convolutional Neural Network (CNN) with Efficient Channel Attention (ECA).
 
 Dataset
-- **Source:** Respiratory Sound Database from Kaggle
+-  Source: [ICBHI Respiratory Sound Database][https://www.kaggle.com/datasets/vbookshelf/respiratory-sound-database]
 - **Input:** `.wav` audio files and corresponding `.txt` annotations
 - **Labels:** Extracted from `patient_diagnosis.csv`
 
@@ -23,12 +23,12 @@ Requirements
 - Matplotlib
 - Seaborn
 
+📊 Results
+Visualizations include training curves, confusion matrix, and classification report.
+Early stopping and dynamic sample weighting included for better generalization.
+
+
 Training
 ```bash
 python train.py
 
-📊 Results
-
-Visualizations include training curves, confusion matrix, and classification report.
-
-Early stopping and dynamic sample weighting included for better generalization.
