@@ -39,4 +39,13 @@ The model is trained using the following techniques for improved robustness and 
 - **Gradient Clipping:** Prevents exploding gradients by capping maximum gradient norms during backpropagation.
 - **Early Stopping:** Stops training when validation loss stops improving, avoiding overfitting.
 
+---
 
+## 📊 Results & Plots
+Visualizations include:
+
+Training Curves: Plots of accuracy and loss over epochs for both training and validation sets.
+Confusion Matrix: Shows prediction performance across COPD and Non-COPD classes.
+Classification Report: Precision, recall, and F1-score metrics to evaluate the model.
+
+These plots help analyze learning behavior, identify overfitting, and assess classification performance visually.
