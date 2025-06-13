@@ -11,7 +11,7 @@ This project classifies respiratory sounds into **COPD** and **Non-COPD** using 
 
 ---
 
-## 🔄 Pipeline
+## Pipeline
 1. **Segment Audio:** Extract labeled segments from `.wav` files using annotation files.
 2. **Convert to Mel Spectrograms:** Generate visual representations of audio segments.
 3. **Organize Dataset:** Separate into COPD and Non-COPD based on patient diagnosis.
@@ -21,7 +21,7 @@ This project classifies respiratory sounds into **COPD** and **Non-COPD** using 
 
 ---
 
-## ✅ Requirements
+## Requirements
 - Python 3.8+
 - PyTorch
 - Librosa
@@ -31,7 +31,7 @@ This project classifies respiratory sounds into **COPD** and **Non-COPD** using 
 
 ---
 
-## 🧠 Training
+## Training
 
 The model is trained using the following techniques for improved robustness and performance:
 
@@ -41,7 +41,7 @@ The model is trained using the following techniques for improved robustness and 
 
 ---
 
-## 📊 Results & Plots
+## Results & Plots
 
 Visualizations include:
 
