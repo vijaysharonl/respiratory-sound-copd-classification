@@ -42,10 +42,13 @@ The model is trained using the following techniques for improved robustness and 
 ---
 
 ## 📊 Results & Plots
+
 Visualizations include:
 
-Training Curves: Plots of accuracy and loss over epochs for both training and validation sets.
-Confusion Matrix: Shows prediction performance across COPD and Non-COPD classes.
-Classification Report: Precision, recall, and F1-score metrics to evaluate the model.
+- **Training Curves:** Accuracy and loss over epochs for both training and validation.
+- **Confusion Matrix:** Prediction performance for COPD vs Non-COPD.
+- **Classification Report:** Includes precision, recall, and F1-score.
+- **Grad-CAM Outputs:** Visual heatmaps showing where the model focuses on spectrograms during prediction, enhancing explainability.
+
 
 These plots help analyze learning behavior, identify overfitting, and assess classification performance visually.
